@@ -1,0 +1,38 @@
+.professional-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+    width: 220px;
+    height: 250px;
+    margin: 20px;
+}
+
+.professional-card:hover {
+    transform: translateY(-8px);
+    transition: 0.4s;
+}
+h2 {
+    margin-bottom: 40;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+
+.card-title {
+    font-size: 21px;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+}
